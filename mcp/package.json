@@ -1,0 +1,16 @@
+{
+  "name": "ygo-ai-mcp",
+  "version": "1.2.0",
+  "description": "MCP server exposing the YGO AI engine: card data, deck management, verified OCG duel simulation, persistent sessions and YGOPro2 bridging.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "ygo-ai-mcp": "server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}
