@@ -4,6 +4,8 @@
 
 卡片数据 · 禁限表 · 卡组管理 · OCG 规则引擎 · 决斗推演 · 录像复盘 · YGOPro2 桥接
 
+MDPro3 故事模式另有可直接接入 OpenAI 兼容模型的[单局策略服务](skill/backend/mdpro3/README.md)，由故事插件自动管理，无需启动 MCP 服务。
+
 ```text
 MCP Client (Agent)
         │  tools/call
